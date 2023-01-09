@@ -22,18 +22,22 @@
     background-image: url('../Assets/images/donation5.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.;
+    opacity: 1;
+}
+.Banner_Content{
     height: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .banner_Title{
     text-align: center;
     color: white;
     font-size: 65px;
+    
 }
 .banner_Text{
     color: white;
