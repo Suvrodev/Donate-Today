@@ -241,3 +241,182 @@ hr{
     color: white;
 }
 /* Footer End */
+
+
+/* Media Query Start */
+@media screen and (max-width:576px) {
+    .banner_Title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .banner_Text{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .main{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        color: gray;
+    }
+    .Donate_Desc{
+        margin-top: 10px;
+        text-align: center;
+        /* background-color: yellow; */
+        /* margin: 10px auto; */
+        width: 50%;
+        font-size: 16px;
+        padding: 20px;
+        text-align: center;
+    }
+    .Number{
+        flex-direction: column;
+    }
+    .Donate_Box{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+    .Box{
+        height: 400px;
+        width: 200px;
+        margin: 20px auto;
+
+    }
+    .Description{
+        width: 100%;
+    }
+    .First{
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+    .Second{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .anotherbox{
+        width: 100%;
+        flex-direction: column;
+       
+    }
+    .em{
+        padding: 5px 10px;
+        height: 22px;
+        width: 230px;
+        z-index: 1;
+        border: 0;
+        background-color: #FFFFFF;
+    }
+    .sb{
+      
+        width: 250px;
+        margin-top: 10px;
+        margin-left: -5px;
+        font-size:16px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .banner_Title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .banner_Text{
+        width: 95%;
+        margin: 20px auto;
+    }
+    .main{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        color: gray;
+    }
+    .Donate_Desc{
+        margin-top: 10px;
+        text-align: center;
+        /* background-color: yellow; */
+        /* margin: 10px auto; */
+        width: 50%;
+        font-size: 16px;
+        padding: 20px;
+        text-align: center;
+    }
+    .tk1{
+       grid-area: tk1;
+    }
+    .tk2{
+       grid-area: tk2;
+    }
+    .tk3{
+       grid-area: tk3;
+    }
+    .tk4{
+       grid-area: tk4;
+    }
+    .tk5{
+       grid-area: tk5;
+       text-align: center;
+       /* background-color: yellow; */
+    }
+    .Number{
+       padding: 50px;
+       display: grid;
+       grid-template-columns: 1fr 1fr ;
+       grid-template-areas: 
+         "tk1 tk2 "
+         "tk3 tk4 "
+         "tk5 tk5"
+       ;
+       justify-content: center;
+       align-items: center;
+    }
+    .Donate_Box{
+        /* flex-direction: column; */
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        gap: 0px;
+        /* background-color: yellow; */
+    }
+    .Box{
+        height: 400px;
+        width: 180px;
+        margin: 5px 5px;
+
+    }
+    .Description{
+        width: 100%;
+    }
+    .First{
+        text-align: center;
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+    .Second{
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+    .anotherbox{
+        width: 100%;
+        flex-direction: column;
+       
+    }
+    .em{
+        padding: 5px 10px;
+        height: 22px;
+        width: 230px;
+        z-index: 1;
+        border: 0;
+        background-color: #FFFFFF;
+    }
+    .sb{
+      
+        width: 250px;
+        margin-top: 10px;
+        margin-left: -5px;
+        font-size:16px;
+    }
+}
+/* Media Query end */
